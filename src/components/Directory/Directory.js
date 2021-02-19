@@ -37,7 +37,7 @@ const Directory = () => {
 			linkUrl: 'shop/mens',
 		},
 	];
-	const [sections, setSections] = useState(INITIAL_STATE);
+	const [sections] = useState(INITIAL_STATE);
 	console.log(sections);
 	return (
 		<div className='directory-menu'>

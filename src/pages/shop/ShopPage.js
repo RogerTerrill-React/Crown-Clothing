@@ -5,7 +5,7 @@ import CollectionPreview from '../../components/CollectionPreview';
 const ShopPage = () => {
 	const INTIAL_STATE = SHOP_DATA;
 
-	const [collections, setCollections] = useState(INTIAL_STATE);
+	const [collections] = useState(INTIAL_STATE);
 	return (
 		<div className='shop-page'>
 			{collections.map(({ id, ...otherCollectionProps }) => (
