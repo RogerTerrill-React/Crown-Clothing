@@ -38,7 +38,6 @@ const Directory = () => {
 		},
 	];
 	const [sections] = useState(INITIAL_STATE);
-	console.log(sections);
 	return (
 		<div className='directory-menu'>
 			{sections.map(({ id, ...otherSectionProps }) => (
